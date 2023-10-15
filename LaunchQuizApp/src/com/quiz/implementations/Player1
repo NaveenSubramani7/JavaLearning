@@ -1,0 +1,13 @@
+package com.quiz.implementions;
+
+import java.util.Scanner;
+
+public class Player1 {
+    public String playerName;
+
+    public void playerName() {
+        System.out.println("Please Enter the Player name ");
+        Scanner sc = new Scanner(System.in);
+        this.playerName = sc.next();
+    }
+}
